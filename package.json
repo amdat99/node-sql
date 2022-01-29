@@ -1,0 +1,17 @@
+{
+  "name": "data-engineer-test-client",
+  "version": "1.0.0",
+  "description": "Data engineer test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon populate-monthly-subscribers"
+  },
+  "author": "andreac@xara.com",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "sqlite3": "^5.0.2"
+  }
+}
